@@ -17,7 +17,7 @@ export default class Register extends Component {
     type: 'dashen' // dashen: 大神, laoban: 老板
   }
 
-  // 跳转到登陆
+  // 跳转到登陆(点击已有账户)
   toLogin = () => {
     // 编程式路由导航(通过纯js实现路由跳转)
     this.props.history.replace('/login')  //跳转到login界面
