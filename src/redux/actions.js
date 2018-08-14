@@ -6,7 +6,7 @@
 import {
   reqRegister,
   reqLogin
-} from '../api'
+} from '../api'//发请求要调用接口请求函数
 
 import {
   AUTH_SUCCESS,
